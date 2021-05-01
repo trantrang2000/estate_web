@@ -1,0 +1,41 @@
+label.error {
+  color: var(--danger);
+}
+.custom-avatar {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.custom-upload {
+  position: relative;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px dashed var(--secondary);
+  cursor: pointer;
+  overflow: hidden;
+}
+.custom-upload img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+}
+.custom-upload svg {
+  font-size: 50px;
+}
+.font-weight-medium,
+.form-group label,
+.custom-select2 label {
+  font-weight: 600;
+}

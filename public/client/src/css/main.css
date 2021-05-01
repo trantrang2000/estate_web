@@ -1,0 +1,33 @@
+/* Banner marketing */
+.custom-banner {
+  max-height: 600px;
+  overflow: hidden;
+}
+.custom-banner img {
+  object-fit: cover;
+}
+
+/* Filter */
+.custom-filter {
+  transform: translateY(-50%);
+}
+.custom-filter
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #fff;
+}
+
+/* Info */
+.custom-info-item {
+  max-width: 360px;
+}
+
+/* Exploce */
+.custom-explore {
+  max-width: 280px;
+  width: 100%;
+}
+.custom-explore img {
+  max-width: 150px;
+}

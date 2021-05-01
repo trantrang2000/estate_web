@@ -1,0 +1,177 @@
+:root {
+  --bg-detail: rgb(251, 249, 246);
+}
+
+.bg-detail {
+  background-color: var(--bg-detail);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-align: inherit;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  font-size: 14px !important;
+}
+
+.outline-0 {
+  outline: none;
+}
+.outline-0:focus {
+  outline: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-16 {
+  font-size: 16px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.background-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-maxline-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.custom-back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Filter */
+.custom-filter .select2-selection--single {
+  background-color: transparent !important;
+  border: none;
+}
+.custom-filter
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  padding-left: 0 !important;
+  width: 100% !important;
+}
+
+/* Estate */
+.custom-estate-icon i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgb(238, 238, 238);
+  cursor: pointer;
+}
+.custom-estate-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Form control */
+.custom-input .form-control {
+  border: 1px solid #f8f8f8;
+  min-height: 52px;
+  background-color: #f8f8f8;
+  max-width: 100%;
+  transition: all 0.2s ease;
+}
+.custom-input .form-control:focus {
+  background-color: #fff;
+  box-shadow: none;
+  border-color: var(--warning);
+}
+
+/* Select2 */
+.custom-select2 .select2-container .select2-selection--single {
+  height: 50px;
+  border: 1px solid rgb(220, 220, 220);
+}
+.custom-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  line-height: 50px;
+  padding-left: 20px;
+}
+.custom-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  height: 48px;
+  right: 20px;
+}
+
+/* Pagination */
+.custom-pagination .page-link {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  background-color: transparent !important;
+}
+.custom-pagination .page-item.active .page-link {
+  background-color: var(--warning) !important;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* Nav */
+.navbar-nav .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
