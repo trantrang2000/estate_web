@@ -54,6 +54,14 @@ RewriteRule ^admin/banner/edit/([0-9]+)$ admin.php?controller=banner&action=edit
 RewriteRule ^admin/banner/do_edit/([0-9]+)$ admin.php?controller=banner&action=do_edit&id=$1
 RewriteRule ^admin/banner/delete/([0-9]+)$ admin.php?controller=banner&action=delete&id=$1
 
+#user
+RewriteRule ^admin/user$ admin.php?controller=user
+RewriteRule ^admin/user/add$ admin.php?controller=user&action=add
+RewriteRule ^admin/user/do_add$ admin.php?controller=user&action=do_add
+RewriteRule ^admin/user/edit/([0-9]+)$ admin.php?controller=user&action=edit&id=$1
+RewriteRule ^admin/user/do_edit/([0-9]+)$ admin.php?controller=user&action=do_edit&id=$1
+RewriteRule ^admin/user/delete/([0-9]+)$ admin.php?controller=user&action=delete&id=$1
+
 #----------
 #auth
 
