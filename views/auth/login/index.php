@@ -16,7 +16,7 @@
         <input type="checkbox" class="form-check-input" id="remember" />
         <label class="form-check-label" for="remember">Ghi nhớ đăng nhập?</label>
       </div>
-      <button type="submit" class="btn btn-warning py-2 text-white font-weight-bold mb-3">
+      <button type="submit" class="btn btn-warning btn-block py-2 text-white font-weight-bold mb-3">
         Đăng nhập
       </button>
     </form>
