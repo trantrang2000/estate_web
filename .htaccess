@@ -11,3 +11,11 @@ RewriteRule ^admin/category-news/do_add$ admin.php?controller=categoryNews&actio
 RewriteRule ^admin/category-news/edit/([0-9]+)$ admin.php?controller=categoryNews&action=edit&id=$1
 RewriteRule ^admin/category-news/do_edit/([0-9]+)$ admin.php?controller=categoryNews&action=do_edit&id=$1
 RewriteRule ^admin/category-news/delete/([0-9]+)$ admin.php?controller=categoryNews&action=delete&id=$1
+
+#news
+RewriteRule ^admin/news$ admin.php?controller=news
+RewriteRule ^admin/news/add$ admin.php?controller=news&action=add
+RewriteRule ^admin/news/do_add$ admin.php?controller=news&action=do_add
+RewriteRule ^admin/news/edit/([0-9]+)$ admin.php?controller=news&action=edit&id=$1
+RewriteRule ^admin/news/do_edit/([0-9]+)$ admin.php?controller=news&action=do_edit&id=$1
+RewriteRule ^admin/news/delete/([0-9]+)$ admin.php?controller=news&action=delete&id=$1
