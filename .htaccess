@@ -38,6 +38,15 @@ RewriteRule ^admin/product/delete/([0-9]+)$ admin.php?controller=product&action=
 RewriteRule ^admin/product/view/([0-9]+)$ admin.php?controller=product&action=view&id=$1
 RewriteRule ^admin/product/update_status/([0-9]+)/([0-9]+)$ admin.php?controller=product&action=update_status&id=$1&status=$2
 
+
+#banner
+RewriteRule ^admin/banner$ admin.php?controller=banner
+RewriteRule ^admin/banner/add$ admin.php?controller=banner&action=add
+RewriteRule ^admin/banner/do_add$ admin.php?controller=banner&action=do_add
+RewriteRule ^admin/banner/edit/([0-9]+)$ admin.php?controller=banner&action=edit&id=$1
+RewriteRule ^admin/banner/do_edit/([0-9]+)$ admin.php?controller=banner&action=do_edit&id=$1
+RewriteRule ^admin/banner/delete/([0-9]+)$ admin.php?controller=banner&action=delete&id=$1
+
 #----------
 #auth
 
