@@ -23,6 +23,9 @@ RewriteRule ^admin/news/delete/([0-9]+)$ admin.php?controller=news&action=delete
 #----------
 #auth
 
+#logout
+RewriteRule ^admin/logout$ admin.php?controller=logout&type=auth
+
 #login
 RewriteRule ^login$ admin.php?controller=login&type=auth
 
