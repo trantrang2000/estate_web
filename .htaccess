@@ -101,3 +101,8 @@ RewriteRule ^sell/do_add$ index.php?controller=sell&action=do_add
 RewriteRule ^sell/edit/([0-9]+)$ index.php?controller=sell&action=edit&id=$1
 RewriteRule ^sell/do_edit/([0-9]+)$ index.php?controller=sell&action=do_edit&id=$1
 RewriteRule ^sell/delete/([0-9]+)$ index.php?controller=sell&action=delete&id=$1
+
+#product
+RewriteRule ^product$ index.php?controller=product
+RewriteRule ^product/([0-9]+) index.php?controller=product&id=$1&type=list
+RewriteRule ^product-detail/([0-9]+) index.php?controller=product&id=$1&type=detail
