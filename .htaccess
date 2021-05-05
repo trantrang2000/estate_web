@@ -88,3 +88,8 @@ RewriteRule ^contact$ index.php?controller=contact
 
 #success
 RewriteRule ^success$ index.php?controller=success
+
+#news
+RewriteRule ^news$ index.php?controller=news
+RewriteRule ^news/([0-9]+) index.php?controller=news&id=$1&type=list
+RewriteRule ^news-detail/([0-9]+) index.php?controller=news&id=$1&type=detail
