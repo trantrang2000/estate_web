@@ -73,3 +73,12 @@ RewriteRule ^login$ admin.php?controller=login&type=auth
 
 #register
 RewriteRule ^register$ admin.php?controller=register&type=auth
+
+#----------
+#client
+
+#home
+RewriteRule ^home$ /index.php [L]
+
+#about
+RewriteRule ^about$ index.php?controller=about
