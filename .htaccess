@@ -93,3 +93,11 @@ RewriteRule ^success$ index.php?controller=success
 RewriteRule ^news$ index.php?controller=news
 RewriteRule ^news/([0-9]+) index.php?controller=news&id=$1&type=list
 RewriteRule ^news-detail/([0-9]+) index.php?controller=news&id=$1&type=detail
+
+#sell
+RewriteRule ^sell$ index.php?controller=sell
+RewriteRule ^sell/add$ index.php?controller=sell&action=add
+RewriteRule ^sell/do_add$ index.php?controller=sell&action=do_add
+RewriteRule ^sell/edit/([0-9]+)$ index.php?controller=sell&action=edit&id=$1
+RewriteRule ^sell/do_edit/([0-9]+)$ index.php?controller=sell&action=do_edit&id=$1
+RewriteRule ^sell/delete/([0-9]+)$ index.php?controller=sell&action=delete&id=$1
