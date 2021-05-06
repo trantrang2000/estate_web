@@ -85,3 +85,6 @@ RewriteRule ^about$ index.php?controller=about
 
 #contact
 RewriteRule ^contact$ index.php?controller=contact
+
+#success
+RewriteRule ^success$ index.php?controller=success
