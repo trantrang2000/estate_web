@@ -82,3 +82,6 @@ RewriteRule ^home$ /index.php [L]
 
 #about
 RewriteRule ^about$ index.php?controller=about
+
+#contact
+RewriteRule ^contact$ index.php?controller=contact
