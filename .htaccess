@@ -106,3 +106,6 @@ RewriteRule ^sell/delete/([0-9]+)$ index.php?controller=sell&action=delete&id=$1
 RewriteRule ^product$ index.php?controller=product
 RewriteRule ^product/([0-9]+) index.php?controller=product&id=$1&type=list
 RewriteRule ^product-detail/([0-9]+) index.php?controller=product&id=$1&type=detail
+
+#search
+RewriteRule ^search$ index.php?controller=search
