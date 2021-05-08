@@ -186,7 +186,7 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <h4 class="text-uppercase mb-4">Tags</h4>
             <div class="d-flex flex-wrap">
-              <div class="px-3 py-1 border mr-2 mb-2">Wifi</div>
+              <div class="px-3 py-1 border mr-2 mb-2">Wifi 2</div>
               <div class="px-3 py-1 border mr-2 mb-2">Air conditioning</div>
               <div class="px-3 py-1 border mr-2 mb-2">Fans</div>
               <div class="px-3 py-1 border mr-2 mb-2">Porch</div>
