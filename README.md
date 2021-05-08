@@ -1,1 +1,7 @@
-## Website bất động sản nhóm 2
+## Website bất động sản
+
+Update readme
+
+## Hướng dẫn
+
+Update readme
