@@ -159,7 +159,7 @@
             </p>
             <p>
               <i class="bi bi-telephone-forward mr-1"></i>
-              518-520 5th Ave, New York, USA
+              Số 3, Cầu Giấy, Hà Nội 
             </p>
             <p><i class="bi bi-geo-alt mr-1"></i> (123) 345-6789</p>
             <p>
