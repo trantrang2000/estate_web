@@ -28,6 +28,16 @@ RewriteRule ^admin/category-product/edit/([0-9]+)$ admin.php?controller=category
 RewriteRule ^admin/category-product/do_edit/([0-9]+)$ admin.php?controller=categoryProduct&action=do_edit&id=$1
 RewriteRule ^admin/category-product/delete/([0-9]+)$ admin.php?controller=categoryProduct&action=delete&id=$1
 
+#product
+RewriteRule ^admin/product$ admin.php?controller=product
+RewriteRule ^admin/product/add$ admin.php?controller=product&action=add
+RewriteRule ^admin/product/do_add$ admin.php?controller=product&action=do_add
+RewriteRule ^admin/product/edit/([0-9]+)$ admin.php?controller=product&action=edit&id=$1
+RewriteRule ^admin/product/do_edit/([0-9]+)$ admin.php?controller=product&action=do_edit&id=$1
+RewriteRule ^admin/product/delete/([0-9]+)$ admin.php?controller=product&action=delete&id=$1
+RewriteRule ^admin/product/view/([0-9]+)$ admin.php?controller=product&action=view&id=$1
+RewriteRule ^admin/product/update_status/([0-9]+)/([0-9]+)$ admin.php?controller=product&action=update_status&id=$1&status=$2
+
 #----------
 #auth
 
