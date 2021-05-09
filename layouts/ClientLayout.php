@@ -47,17 +47,17 @@
   <header class="py-2 border-bottom d-none d-md-block">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="d-flex">
-        <a class="text-dark mr-4" href="tel:(123) 345-6789">
+        <a class="text-dark mr-4" href="tel:0328111926">
           <i class="bi bi-telephone-forward mr-1"></i>
-          <span>(123) 345-6789</span>
+          <span>0328111926</span>
         </a>
         <div class="text-dark mr-4">
           <i class="bi bi-geo-alt mr-1"></i>
-          <span>518-520 5th Ave, New York, USA </span>
+          <span>Số 3, Cầu Giấy, Hà Nội </span>
         </div>
-        <a class="text-dark" href="mail:support@tangibledesign.net">
+        <a class="text-dark" href="mail:pthongnhung201186@gmail.com">
           <i class="bi bi-envelope mr-1"></i>
-          <span>support@tangibledesign.net</span>
+          <span>pthongnhung201186@gmail.com</span>
         </a>
       </div>
       <?php if (empty($_SESSION['user'])) { ?>
@@ -87,7 +87,7 @@
   <!-- Nav -->
   <nav id="layoutMenu" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
     <div class="container">
-      <a class="navbar-brand" style="font-size: 35px" href="<?php echo "{$APP_URL}"; ?>">LOGO</a>
+      <a class="navbar-brand" style="font-size: 35px" href="<?php echo "{$APP_URL}"; ?>">BẤT ĐỘNG SẢN</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -151,19 +151,17 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-3">
-            <h2>LOGO</h2>
+            <h2>BẤT ĐỘNG SẢN</h2>
             <p>
-              After a time we drew near the road, and as we did so we heard
-              the clatter of hoofs and saw through the tree stems three
-              cavalry soldiers riding slowly towards Woking.
+              Trang web cho thuê và bán bất động sản uy tín, chất lượng.
             </p>
             <p>
               <i class="bi bi-telephone-forward mr-1"></i>
               Số 3, Cầu Giấy, Hà Nội 
             </p>
-            <p><i class="bi bi-geo-alt mr-1"></i> (123) 345-6789</p>
+            <p><i class="bi bi-geo-alt mr-1"></i> 0328111926</p>
             <p>
-              <i class="bi bi-envelope mr-2"></i>support@tangibledesing.net
+              <i class="bi bi-envelope mr-2"></i>pthongnhung201186@gmail.com
             </p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
